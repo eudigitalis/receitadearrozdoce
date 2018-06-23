@@ -1,0 +1,15 @@
+{{ partial "structure/head" . }}
+{{ partial "seo/structured/recipe" . }}
+{{ partial "navigation/header" .}}
+
+<main>
+  {{ partial "navigation/breadcrumbs" . }}
+  
+
+      {{ range .Data.Pages }}
+        {{ if eq .Params.index true }}
+            {{ .Content }}
+        {{ end }}
+    {{ end }}
+</main>
+{{ partial "structure/foot" . }}
