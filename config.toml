@@ -1,4 +1,4 @@
-baseurl = "receitadearrozdoce.com"
+baseurl = "https://receitadearrozdoce.com/"
 languageCode = "pt-br"
 title = "Receita de Arroz Doce"
 theme = "gohugo-amp"
